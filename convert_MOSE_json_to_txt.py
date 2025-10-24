@@ -5,7 +5,7 @@ import os
 json_path = "MOSE/meta_valid.json"
 
 # Output TXT file compatible with SAM2
-output_txt = "MOSE/valid/ImageSets/val.txt"
+output_txt = "MOSE/ImageSets/2017/val.txt"
 
 # Make sure output folder exists
 os.makedirs(os.path.dirname(output_txt), exist_ok=True)
