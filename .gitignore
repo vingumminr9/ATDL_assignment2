@@ -1,0 +1,31 @@
+# Ignore dataset folders
+DAVIS/
+MOSE/
+
+# Ignore output folder
+outputs/
+
+# Ignore Python cache and virtual environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Ignore temporary and system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files from editors
+*.swp
+*.swo
+ 
