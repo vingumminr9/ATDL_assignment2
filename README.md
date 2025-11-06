@@ -92,6 +92,11 @@ parser.add_argument(
 )
 ```
 
+And after the predictor is defined in line 456, add:
+```python
+predictor.num_maskmem = args.sam2_memsize
+```
+
 We are now ready to perform Semi-supervised VOS inference.  
 The script allows switching between DATASETS (DAVIS vs MOSE), SAM2 models (base_plus vs large), and the amount of frames stored in memory (num_maskmem = 0..7).  
 
